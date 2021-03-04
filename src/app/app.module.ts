@@ -7,6 +7,7 @@ import { NavComponent } from './nav/nav.component';
 import { AllParksComponent } from './all-parks/all-parks.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ContactComponent } from './contact/contact.component';
     NavComponent,
     AllParksComponent,
     FooterComponent,
-    ContactComponent
+    ContactComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
