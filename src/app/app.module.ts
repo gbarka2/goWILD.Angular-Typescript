@@ -8,6 +8,7 @@ import { AllParksComponent } from './all-parks/all-parks.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { SearchComponent } from './search/search.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SearchComponent } from './search/search.component';
     AllParksComponent,
     FooterComponent,
     ContactComponent,
-    SearchComponent
+    SearchComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
