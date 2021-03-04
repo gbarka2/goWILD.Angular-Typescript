@@ -10,6 +10,8 @@ import { ContactComponent } from './contact/contact.component';
 import { SearchComponent } from './search/search.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ArticlesComponent } from './articles/articles.component';
+import { ParksComponent } from './parks/parks.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ArticlesComponent } from './articles/articles.component';
     ContactComponent,
     SearchComponent,
     CarouselComponent,
-    ArticlesComponent
+    ArticlesComponent,
+    ParksComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,
