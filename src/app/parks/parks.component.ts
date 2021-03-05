@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {HttpClient} from '@angular/common/http'
+
 
 @Component({
   selector: 'parks',
@@ -7,9 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParksComponent implements OnInit {
 
-  constructor() { }
+
+  parks: any
+
+  constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
+    this.http.get("https://nps-api-app-1.herokuapp.com/parks")
+    .subscribe((data) => this.displayParks(data))
+  }
+
+  displayParks(data: Object) {
+    console.log(data)
+    this.parks = data
   }
 
 }
