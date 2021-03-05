@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {RouterModule} from '@angular/router'
+import {HttpClientModule} from '@angular/common/http'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +14,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { ArticlesComponent } from './articles/articles.component';
 import { ParksComponent } from './parks/parks.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { ParkComponent } from './park/park.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +27,23 @@ import { HomepageComponent } from './homepage/homepage.component';
     CarouselComponent,
     ArticlesComponent,
     ParksComponent,
-    HomepageComponent
+    HomepageComponent,
+    ParkComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot([
+      {
+        path:'',
+        component:HomepageComponent
+      },
+      {
+        path:'parks', 
+        component:AllParksComponent
+      }
+    ]),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
