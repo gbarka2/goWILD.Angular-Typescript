@@ -16,6 +16,7 @@ import { ParksComponent } from './parks/parks.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ParkComponent } from './park/park.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {CarouselImagesService} from './carousel-images.service'
 
 @NgModule({
   declarations: [
@@ -51,7 +52,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HttpClientModule,
     NgbModule
   ],
-  providers: [],
+  providers: [CarouselImagesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
