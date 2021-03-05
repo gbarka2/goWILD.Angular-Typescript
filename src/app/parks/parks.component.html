@@ -1,4 +1,4 @@
 <p>parks works!</p>
 <div *ngFor="let park of parks">
-  <h3>{{park.full_name}}</h3>
+  <h3 [routerLink]="['/parks', park.id]">{{park.full_name}}</h3>
 </div>

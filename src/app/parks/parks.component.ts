@@ -20,7 +20,7 @@ export class ParksComponent implements OnInit {
   }
 
   displayParks(data: Object) {
-    console.log(data)
+    // console.log(data)
     this.parks = data
   }
 
