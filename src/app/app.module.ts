@@ -39,6 +39,10 @@ import { ParkComponent } from './park/park.component';
         component:HomepageComponent
       },
       {
+        path:'parks/:id', 
+        component:ParkComponent
+      },
+      {
         path:'parks', 
         component:AllParksComponent
       }
