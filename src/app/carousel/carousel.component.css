@@ -1,10 +1,10 @@
 ngb-carousel { 
   border: 1px solid black;
-  width: 400px;
+  width: 425px;
 }
 
 img { 
-  width: 400px;
+  width: 425px;
   height: 250px;
   align-items: center;
 }
