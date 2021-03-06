@@ -21,3 +21,6 @@ export class ArticlesComponent implements OnInit {
     console.log(this.newsArticles)
   }
 }
+
+
+
