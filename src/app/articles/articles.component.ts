@@ -7,13 +7,17 @@ import { NewsService } from '../news.service'
   styleUrls: ['./articles.component.css']
 })
 export class ArticlesComponent implements OnInit {
-  newsArticles: object[] = []
+  newsArticles: any
 
   constructor(private newsService: NewsService) { }
 
   ngOnInit() {
     this.newsService.getNews()
-      .subscribe((data: any) => this.newsArticles = data.data && console.log('news', data.data))
-      // console.log('news', data)
+      .subscribe((data: any) => this.displayArticles(data.data))
+  }
+
+  displayArticles(data: object[]) {
+    this.newsArticles = data
+    console.log(this.newsArticles)
   }
 }
