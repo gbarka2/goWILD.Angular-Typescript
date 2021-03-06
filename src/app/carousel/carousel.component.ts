@@ -14,6 +14,10 @@ export class CarouselComponent implements OnInit {
   @ViewChild('mycarousel', {static : true}) 
   carousel: any;
   images: string[] = []
+  altText: string[] = []
+  title: string[] = []
+  credit: string[] = []
+  caption: string[] = []
   showNavigationArrows = true;
   showNavigationIndicators = true;
   pauseOnHover = true;
@@ -21,10 +25,17 @@ export class CarouselComponent implements OnInit {
   constructor(private carouselImagesService: CarouselImagesService) { }
 
   ngOnInit() {
-    for (let i = 1; i < 4; i++) {
+    for (let i = 1; i < 7; i++) {
       this.carouselImagesService.getCarouselImages()
-        .subscribe((data: any) => this.images.push(data.url))
+        .subscribe((data: any) => 
+          this.images.push(data.url)
+          && this.altText.push(data.alt_text)
+          && this.title.push(data.title)
+          && this.credit.push(data.credit)
+          && this.caption.push(data.caption)
+        )
     }
+    // console.log(this.title)
   }
   
 

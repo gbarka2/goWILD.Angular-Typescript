@@ -3,29 +3,62 @@
 >
   <ng-template ngbSlide>
     <div class="picsum-img-wrapper">
-      <img [src]="images[0]" alt="Random first slide">
+      <img [src]="images[0]" alt={{altText[0]}}>
     </div>
     <div class="carousel-caption">
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3>{{title[0]}}</h3>
+      <p>{{caption[0]}}</p>
+      <p>{{credit[0]}}</p>
     </div>
   </ng-template>
   <ng-template ngbSlide>
     <div class="picsum-img-wrapper">
-      <img [src]="images[1]" alt="Random second slide">
+      <img [src]="images[1]" alt={{altText[1]}}>
     </div>
     <div class="carousel-caption">
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3>{{title[1]}}</h3>
+      <p>{{caption[1]}}</p>
+      <p>{{credit[1]}}</p>
     </div>
   </ng-template>
   <ng-template ngbSlide>
     <div class="picsum-img-wrapper">
-      <img [src]="images[2]" alt="Random third slide">
+      <img [src]="images[2]" alt={{altText[2]}}>
     </div>
     <div class="carousel-caption">
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3>{{title[2]}}</h3>
+      <p>{{caption[2]}}</p>
+      <p>{{credit[2]}}</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img [src]="images[3]" alt={{altText[3]}}>
+    </div>
+    <div class="carousel-caption">
+      <h3>{{title[3]}}</h3>
+      <p>{{caption[3]}}</p>
+      <p>{{credit[3]}}</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img [src]="images[4]" alt={{altText[4]}}>
+    </div>
+    <div class="carousel-caption">
+      <h3>{{title[4]}}</h3>
+      <p>{{caption[4]}}</p>
+      <p>{{credit[4]}}</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img [src]="images[5]" alt={{altText[5]}}>
+    </div>
+    <div class="carousel-caption">
+      <h3>{{title[5]}}</h3>
+      <p>{{caption[5]}}</p>
+      <p>{{credit[5]}}</p>
     </div>
   </ng-template>
 </ngb-carousel>
