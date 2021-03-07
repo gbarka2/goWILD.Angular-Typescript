@@ -1,7 +1,9 @@
-<div *ngFor="let newsArticle of newsArticles">
-  <h5>{{newsArticle.title}}</h5>
-  <img src="https://www.nps.gov/common/commonspot/templates/images/logos/nps_social_image_02.jpg">
-  <p>{{newsArticle.listingDescription}}</p>
+<div class="article-container">
+  <div *ngFor="let newsArticle of newsArticles">
+    <img src="https://www.nps.gov/common/commonspot/templates/images/logos/nps_social_image_02.jpg">
+    <h5>{{newsArticle.title}}</h5>
+    <p>{{newsArticle.listingDescription}}</p>
+  </div>
 </div>
 
 
