@@ -16,7 +16,8 @@ import { ParksComponent } from './parks/parks.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ParkComponent } from './park/park.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import {CarouselImagesService} from './carousel-images.service'
+import {CarouselImagesService} from './carousel-images.service';
+import { ParkAccordianComponent } from './park-accordian/park-accordian.component'
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import {CarouselImagesService} from './carousel-images.service'
     ArticlesComponent,
     ParksComponent,
     HomepageComponent,
-    ParkComponent
+    ParkComponent,
+    ParkAccordianComponent
   ],
   imports: [
     BrowserModule,

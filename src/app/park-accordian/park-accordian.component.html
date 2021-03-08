@@ -1,0 +1,27 @@
+<ngb-accordion
+#myaccordion="ngbAccordion" 
+activeIds="panelTwo" 
+type="'success'"
+>
+	<ngb-panel title="Panel One" id="panelOne">
+		<ng-template ngbPanelContent>
+			Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+			aute.
+		</ng-template>
+	</ngb-panel>
+	<ngb-panel title="Panel Two" id="panelTwo">
+		<ng-template ngbPanelContent>
+			Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+			aute.
+		</ng-template>
+	</ngb-panel>
+	<ngb-panel title="Panel Three" id="panelThree">
+		<ng-template ngbPanelContent>
+			Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+			aute.
+		</ng-template>
+	</ngb-panel>
+</ngb-accordion>
+
+<button class="btn btn-sm btn-outline-primary mr-2" (click)="togglePanel('panelOne')">Toggle Panel One</button>
+<button class="btn btn-sm btn-outline-primary mr-2" (click)="togglePanel('panelTwo')">Toggle Panel Two</button>
