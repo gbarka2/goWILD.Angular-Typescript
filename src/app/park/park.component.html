@@ -3,37 +3,6 @@
   <p>{{park.description}}</p>
 </div>
 
-<div>
-  <h5>Address Information</h5>
-  <div *ngFor="let address of park.addresses">
-    <p>{{address.line1}}</p>
-    <p>{{address.line2}}</p>
-    <p>{{address.city}}, {{address.state}} {{address.zipcode}}</p>
-    <p>Coordinates: {{park.lat_long}}</p>
-  </div>
-
-  <h5>Fee Information</h5>
-  <div *ngFor="let fee of park.fees">
-    <p>{{fee.title}} - {{fee.cost}}</p>
-    <p>{{fee.description}}</p>
-  </div>
-
-  <h5>Contact Information</h5>
-  <div>
-    <p>{{park.phone}}</p>
-    <p>{{park.email}}</p>
-  </div>
-
-  <h5>Directions</h5>
-  <div>
-    <p>{{park.directions}}</p>
-  </div>
-
-  <h5>Weather</h5>
-  <div>
-    <p>{{park.weather}}</p>
-  </div>
-</div>
 <park-accordian></park-accordian>
 
 
