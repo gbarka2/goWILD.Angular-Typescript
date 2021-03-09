@@ -1,0 +1,14 @@
+ngb-carousel { 
+  border: 1px solid black;
+  width: 425px;
+}
+
+img { 
+  width: 425px;
+  height: 250px;
+  align-items: center;
+}
+
+.picsum-img-wrapper {
+  align-items: center;
+}

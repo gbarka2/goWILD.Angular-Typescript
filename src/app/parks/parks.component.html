@@ -3,7 +3,7 @@
   [routerLink]="['/parks', park.id]" 
   *ngFor="let park of parks">
   <article>
-    <img src={{park.images[0].url}}>
+    <img src={{park.images[0].url}} alt={{park.images[0].alt_text}}>
     <p>{{park.name}}</p>
     <p>{{park.park_type}}</p>
   </article>
