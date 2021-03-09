@@ -1,0 +1,12 @@
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 5px;
+  background-color: #254d32;
+  margin: 0;
+}
+
+li {
+  color: #d0db97;
+}

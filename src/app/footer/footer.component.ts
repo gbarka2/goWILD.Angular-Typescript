@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {ContactComponent} from '../contact/contact.component'
+import {faCompass} from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'footer',
@@ -8,7 +9,7 @@ import {ContactComponent} from '../contact/contact.component'
 })
 export class FooterComponent implements OnInit {
 
-  disclaimer = "Please Note: This is a simulated version of the NPS website, please refer to nps.gov for official government information."
+  faCompass = faCompass
 
   constructor() { }
 

@@ -11,17 +11,22 @@ export class ParksComponent implements OnInit {
 
 
   parks: any
+  images: any
 
   constructor(private http: HttpClient) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
     this.http.get("https://nps-api-app-1.herokuapp.com/parks")
-    .subscribe((data) => this.displayParks(data))
+    .subscribe((data: any) => this.displayParks(data))
   }
 
   displayParks(data: Object) {
-    // console.log(data)
     this.parks = data
+    console.log(data)
+  }
+
+  displayImages(data: Object) {
+    console.log(data)
   }
 
 }

@@ -1,0 +1,45 @@
+<ngb-accordion
+#myaccordion="ngbAccordion" 
+type="'success'"
+>
+
+	<ngb-panel title="Address Information" id="panelOne">
+		<ng-template ngbPanelContent >
+      <div *ngFor="let address of park.addresses">
+        <p>{{address.line1}}</p>
+        <p>{{address.line2}}</p>
+        <p>{{address.city}}, {{address.state}} {{address.zipcode}}</p>
+        <p>Coordinates: {{park.lat_long}}</p>
+      </div>
+		</ng-template>
+	</ngb-panel>
+
+	<ngb-panel title="Entrance Fee Information" id="panelTwo">
+		<ng-template ngbPanelContent>
+      <div *ngFor="let fee of park.fees">
+        <p>{{fee.title}} - {{fee.cost}}</p>
+        <p>{{fee.description}}</p>  
+      </div>
+		</ng-template>
+	</ngb-panel>
+
+  <ngb-panel title="Directions" id="panelThree">
+		<ng-template ngbPanelContent>
+      <p>{{park.directions}}</p>
+		</ng-template>
+	</ngb-panel>
+
+  <ngb-panel title="Weather Information" id="panelFour">
+		<ng-template ngbPanelContent>
+      <p>{{park.weather}}</p>
+		</ng-template>
+	</ngb-panel>
+  
+	<ngb-panel title="Contact Information" id="panelFive">
+		<ng-template ngbPanelContent>
+      <p>Phone: {{park.phone}}</p>
+      <p>Email: {{park.email}}</p>
+		</ng-template>
+	</ngb-panel>
+
+</ngb-accordion>
