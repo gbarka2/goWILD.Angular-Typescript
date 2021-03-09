@@ -1,4 +1,12 @@
 div {
   display: flex;
   justify-content: space-between;
+  background-color: hsl(220, 24%, 12%);
+  color: white;
+
+}
+
+fa-icon {
+  font-size: 70px;
+  margin-left: 20px;
 }

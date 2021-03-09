@@ -1,10 +1,10 @@
 div {
-  border: 3px solid red;
   margin: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 370px
+  width: 370px;
+  background-color: transparent;
 }
 img {
   height: 100px;
@@ -23,6 +23,14 @@ p, h5 {
   display: flex;
   flex-direction: column;
   margin: 0;
+  border-top: #3a7d44 3px solid;
+  border-bottom: #3a7d44 3px solid;
+  /* background-image: radial-gradient(rgb(172, 164, 164), white); */
+
+}
+
+.article {
+  border: 1px solid #3a7d44
 }
 
 

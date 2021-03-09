@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {HttpClient} from '@angular/common/http'
 import {Park} from './park';
 import {Observable} from 'rxjs'
+import {faCompass} from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -12,7 +13,7 @@ import {Observable} from 'rxjs'
 })
 export class AppComponent {
   title = 'goWILD';
-
+  faCompass = faCompass
 
   constructor() {}
 

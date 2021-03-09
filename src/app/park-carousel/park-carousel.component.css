@@ -1,14 +1,17 @@
 ngb-carousel { 
   border: 1px solid black;
-  width: 425px;
+  height: 200px;
+  background-color: #d0db97;
 }
 
 img { 
-  width: 425px;
-  height: 250px;
+  /* width: 425px; */
+  height: 200px;
   align-items: center;
 }
 
 .picsum-img-wrapper {
-  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
 }
