@@ -10,7 +10,8 @@ img {
   height: 100px;
   width: 200px;
   margin: 10px;
-  border: 1px solid black
+  border: 1px solid #3a7d44;
+  border-radius: 20px;
 }
 
 p, h5 {
@@ -30,7 +31,13 @@ p, h5 {
 }
 
 .article {
-  border: 1px solid #3a7d44
+  border: 2px solid #3a7d44;
+  border-radius: 20px;
+  background-color: white;
+}
+
+p {
+  margin: 0 10px 10px 10px;
 }
 
 
