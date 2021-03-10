@@ -75,6 +75,14 @@ a {
 
 @media screen and (min-width: 768px) {
 
+  .newsarticle-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
   .article {
     width: 250px;
     height: 265px;
@@ -85,6 +93,7 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 
   .container {
@@ -112,7 +121,6 @@ a {
   }
 
   .article-container {
-    margin-left: 186px;
     width: 100%;
     margin-top: 0;
   }
