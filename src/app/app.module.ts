@@ -19,7 +19,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {CarouselImagesService} from './carousel-images.service';
 import { ParkAccordianComponent } from './park-accordian/park-accordian.component';
 import { ParkCarouselComponent } from './park-carousel/park-carousel.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { AboutComponent } from './about/about.component'
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
     HomepageComponent,
     ParkComponent,
     ParkAccordianComponent,
-    ParkCarouselComponent
+    ParkCarouselComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
@@ -52,6 +54,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
       {
         path:'parks', 
         component:AllParksComponent
+      },
+      {
+        path:'about',
+        component:AboutComponent
       }
     ]),
     HttpClientModule,
