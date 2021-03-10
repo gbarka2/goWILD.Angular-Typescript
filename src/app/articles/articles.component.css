@@ -15,10 +15,25 @@ img {
   border-radius: 20px;
 }
 
+.title-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 35px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+}
+
 
 .article-container {
   height: 100%;
-  width: 100vw;
+  width: 100%;
   display: flex;
   margin: 25px 0 0 0;
   padding-bottom: 25px;
@@ -58,19 +73,26 @@ a {
 @media screen and (min-width: 768px) {
 
   .article {
-    width: 350px;
-    height: 300px;
+    width: 250px;
+    height: 220px;
+    text-align: center;
   }
 
   .article-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: 100px;
+  }
+
+  .container {
+    align-items: center;
+    margin: 0 15px 0 36px;
   }
 
   img {
-    width: 175px;
-    height: 100px;
+    width: 75px;
+    height: 45px;
   }
 
   h4 {
