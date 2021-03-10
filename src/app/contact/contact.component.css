@@ -2,13 +2,18 @@ div {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  font-family: 'Poppins', cursive;
 }
+
 ul {
   display: flex;
   list-style-type: none;
   justify-content: space-around;
-  border: 1px solid maroon;
-
+  font-size: 25px;
+  margin-right: 10px;
+}
+a {
+  color: white;
 }
 
 p {

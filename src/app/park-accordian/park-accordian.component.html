@@ -6,10 +6,10 @@ type="'success'"
 	<ngb-panel title="Address Information" id="panelOne">
 		<ng-template ngbPanelContent >
       <div *ngFor="let address of park.addresses">
-        <p>{{address.line1}}</p>
-        <p>{{address.line2}}</p>
-        <p>{{address.city}}, {{address.state}} {{address.zipcode}}</p>
-        <p>Coordinates: {{park.lat_long}}</p>
+        <p class="address">{{address.line1}}</p>
+        <p class="address">{{address.line2}}</p>
+        <p class="address last">{{address.city}}, {{address.state}} {{address.zipcode}}</p>
+        <p><span>Coordinates: </span><br>{{park.lat_long}}</p>
       </div>
 		</ng-template>
 	</ngb-panel>
@@ -17,8 +17,9 @@ type="'success'"
 	<ngb-panel title="Entrance Fee Information" id="panelTwo">
 		<ng-template ngbPanelContent>
       <div *ngFor="let fee of park.fees">
-        <p>{{fee.title}} - {{fee.cost}}</p>
+        <p class="fee-title">{{fee.title}} - ${{fee.cost}}</p>
         <p>{{fee.description}}</p>  
+				<hr>
       </div>
 		</ng-template>
 	</ngb-panel>
@@ -37,8 +38,8 @@ type="'success'"
   
 	<ngb-panel title="Contact Information" id="panelFive">
 		<ng-template ngbPanelContent>
-      <p>Phone: {{park.phone}}</p>
-      <p>Email: {{park.email}}</p>
+      <p><span>Phone: </span>{{park.phone}}</p>
+      <p><span>Email: </span>{{park.email}}</p>
 		</ng-template>
 	</ngb-panel>
 

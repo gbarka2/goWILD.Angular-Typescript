@@ -1,0 +1,21 @@
+ngb-accordion {
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.fee-title {
+  font-family: 'Courgette', cursive;
+  font-size: 18px;
+}
+
+span {
+  font-family: 'Courgette', cursive;
+}
+
+.address {
+  margin: 0;
+}
+
+.last {
+  margin-bottom: 5px;
+}

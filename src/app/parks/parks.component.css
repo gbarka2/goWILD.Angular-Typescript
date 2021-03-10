@@ -12,11 +12,20 @@ div {
   align-items: center;
   padding: 10px 0 10px 0;
   margin: 10px 0 10px 0;
+  border: #3a7d44 3px solid;
+  border-radius: 20px;
+  background-color: white;
+  font-family: 'Courgette', cursive;
+}
+
+img {
+  border-radius: 5px;
 }
 
 article {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 

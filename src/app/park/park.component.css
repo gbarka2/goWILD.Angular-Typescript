@@ -1,3 +1,18 @@
 h2 {
   padding-top: 10px;
+  margin-left: 10px;
+  font-family: 'Courgette', cursive;
+}
+
+img {
+  height: 200px;
+  width: 100%;
+  object-fit: fill;
+  border-top: 3px solid #254d32;
+  border-bottom: #3a7d44 3px solid;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  margin: 10px 15px 20px 15px;
 }
