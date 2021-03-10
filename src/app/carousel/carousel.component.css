@@ -35,23 +35,26 @@ h4 {
     display: flex;
     align-items: center;
     width: 100%;
+    border-bottom: 3px solid #254d32;
   }
 
   ngb-carousel {
     border-top: 0;
     border-left: 3px solid #254d32;
     height: 240px;
-    width: 10vw;
+    width: 65%;
   }
 
   img {
     height: 240px;
     width: 100%;
+    border: none;
   }
 
   h4 {
     margin: 0;
-    width: 100%;
+    width: 35%;
+    padding: 0 10px 0 30px;
   }
 
 
