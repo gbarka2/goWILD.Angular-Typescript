@@ -7,7 +7,6 @@
   padding-top: 10px;
   width: 100%;
   margin: 0;
-  border: 1px red solid;
 }
 h3 {
   padding-top: 10px;
@@ -41,7 +40,7 @@ img {
 
 .content {
   padding: 0 10px 0 10px;
-  
+  text-align: center;
 }
 
 .last {
@@ -50,4 +49,19 @@ img {
 
 a {
   color: #3A7D44;
+}
+
+@media screen and (min-width: 1440px) {
+  .content {
+    font-size: 20px;
+  }
+
+  img {
+    height: 300px;
+    width: 300px;
+  }
+
+  h3 {
+    font-size: 48px;
+  }
 }
