@@ -8,8 +8,8 @@ div {
   font-family: 'Poppins', sans-serif;
 }
 img {
-  height: 100px;
-  width: 70%;
+  height: 10%;
+  width: 40%;
   margin: 10px;
   border: 1px solid #3a7d44;
   border-radius: 20px;
@@ -53,4 +53,28 @@ a {
   padding: 5px;
   border: 2px solid #181d27;
   border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .article {
+    width: 350px;
+    height: 300px;
+  }
+
+  .article-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  img {
+    width: 175px;
+    height: 100px;
+  }
+
+  h4 {
+    text-align: center;
+  }
+
 }

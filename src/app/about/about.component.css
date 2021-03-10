@@ -1,7 +1,15 @@
+
+
 .container {
   font-family: 'Poppins', sans-serif;
   background: rgb(234,237,215);
   background: radial-gradient(circle, rgba(234,237,215,1) 0%, rgba(241,241,241,1) 100%);
+  padding-top: 10px;
+  width: 100vw;
+  margin: 0;
+  border: 1px red solid;
+}
+h3 {
   padding-top: 10px;
 }
 
