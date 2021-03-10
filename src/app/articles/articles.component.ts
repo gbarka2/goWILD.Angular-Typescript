@@ -20,6 +20,12 @@ export class ArticlesComponent implements OnInit {
     this.newsArticles = data
     console.log(this.newsArticles)
   }
+
+  linkToArticle() {
+    
+  }
+
+
 }
 
 

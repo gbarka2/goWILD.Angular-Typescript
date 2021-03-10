@@ -5,6 +5,7 @@ div {
   align-items: center;
   width: 370px;
   background-color: transparent;
+  font-family: 'Poppins', sans-serif;
 }
 img {
   height: 100px;
@@ -22,12 +23,14 @@ p, h5 {
   height: 100%;
   width: 100%;
   display: flex;
-  flex-direction: column;
   margin: 0;
+  flex-direction: column;
   border-top: #3a7d44 3px solid;
   border-bottom: #3a7d44 3px solid;
-  /* background-image: radial-gradient(rgb(172, 164, 164), white); */
+}
 
+span {
+  font-family: 'Courgette', cursive;
 }
 
 .article {
@@ -39,14 +42,3 @@ p, h5 {
 p {
   margin: 0 10px 10px 10px;
 }
-
-
-/* id: "5CE3F32C-ECD6-47C6-AC99-E058EF92124D"
-latLong: ""
-latitude: null
-listingDescription: "The Disability History series brings attention to some of the many disability stories interwoven across the National Park Service’s 400+ units and its programs. “Disability stories” refer to the array of experiences by, from, and about people with disabilities represented across our nation. People with disabilities are the largest minority in the United States, but their stories often remain untold."
-listingImage: {url: "", credit: "", altText: "", title: "", description: "", …}
-longitude: null
-relatedParks: []
-title: "Article Series"
-url: "https://www.nps.gov/articles/series.htm" */

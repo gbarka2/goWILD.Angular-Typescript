@@ -10,6 +10,7 @@ img {
   align-items: center;
   width: 100%;
   object-fit: cover;
+  border-bottom: #3a7d44 3px solid;
 /* 
   height: 100%;
   width: 100%;
@@ -20,6 +21,7 @@ img {
 h4 {
   background-color: transparent;
   padding-top: 10px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .picsum-img-wrapper {
