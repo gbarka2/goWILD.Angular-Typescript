@@ -8,6 +8,7 @@ nav {
   width: 100vw;
 } */
 
+
 h1 {
   background: rgb(241,241,241);
   background: linear-gradient(90deg, rgba(241,241,241,1) 0%, rgba(208,219,151,1) 100%);
@@ -15,6 +16,7 @@ h1 {
   padding: 10px;
   margin: 0;
   font-family: 'Courgette', cursive;
+  width: 100%;
 }
 
 fa-icon {

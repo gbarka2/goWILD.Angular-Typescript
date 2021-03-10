@@ -5,7 +5,8 @@ ul {
   padding: 5px;
   background-color: #254d32;
   margin: 0;
-  width: 100%;
+  width: 100vw;
+  border: none;
 }
 
 li {

@@ -9,7 +9,7 @@ div {
 }
 img {
   height: 100px;
-  width: 200px;
+  width: 70%;
   margin: 10px;
   border: 1px solid #3a7d44;
   border-radius: 20px;
@@ -18,12 +18,11 @@ img {
 
 .article-container {
   height: 100%;
-  width: 100%;
+  width: 100vw;
   display: flex;
   margin: 25px 0 0 0;
   padding-bottom: 25px;
   flex-direction: column;
-  border-bottom: #3a7d44 3px solid;
 }
 
 h5 {
@@ -40,6 +39,7 @@ span {
   border-radius: 20px;
   background-color: white;
   margin: 10px;
+  width: 70%;
 }
 
 p {
