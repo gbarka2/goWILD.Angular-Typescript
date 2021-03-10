@@ -1,5 +1,5 @@
 .carousel-component {
-  width: 100%;
+  width: 100vw;
 }
 
 ngb-carousel { 
@@ -12,7 +12,7 @@ ngb-carousel {
 img { 
   height: 200px;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   object-fit: cover;
   border-bottom: #3a7d44 3px solid;
 }
@@ -35,22 +35,42 @@ h4 {
     display: flex;
     align-items: center;
     width: 100%;
+    border-bottom: 3px solid #254d32;
   }
 
   ngb-carousel {
     border-top: 0;
     border-left: 3px solid #254d32;
     height: 240px;
-    width: 100%;
+    width: 65%;
   }
 
   img {
     height: 240px;
+    width: 100%;
+    border: none;
   }
 
   h4 {
     margin: 0;
+    width: 35%;
+    padding: 0 10px 0 30px;
   }
 
 
+  @media screen and (min-width: 1140px) {
+    ngb-carousel {
+      width: 75%;
+      height: 465px;
+    }
+
+    h4 {
+      width: 25%;
+    }
+
+    img {
+      height: 465px;
+    }
+
+  }
 }

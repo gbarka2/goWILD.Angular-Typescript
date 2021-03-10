@@ -23,3 +23,15 @@ p {
 .text-container {
   margin: 10px 10px 0 0;
 }
+
+@media screen and (min-width: 1440px) {
+
+  div {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+
+  ul {
+    font-size: 45px;
+  }
+}

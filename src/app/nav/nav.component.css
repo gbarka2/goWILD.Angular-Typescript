@@ -5,9 +5,17 @@ ul {
   padding: 5px;
   background-color: #254d32;
   margin: 0;
-  width: 100%;
+  width: 100vw;
+  border: none;
 }
 
 li {
   color: #d0db97;
+}
+
+@media screen and (min-width: 1440px) {
+
+  ul {
+    font-size: 28px;
+  }
 }

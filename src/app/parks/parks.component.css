@@ -1,12 +1,13 @@
 img {
   height: 75px;
-  max-width: 190px;
+  width: 90px;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 div {
   border: 1px solid red;
   width: 200px;
-  /* height: 300px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,8 +19,9 @@ div {
   font-family: 'Courgette', cursive;
 }
 
-img {
-  border-radius: 5px;
+.name {
+  border: none;
+  width: 184px;
 }
 
 article {
@@ -27,6 +29,7 @@ article {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 p:first-of-type {
@@ -35,4 +38,43 @@ p:first-of-type {
 
 p {
   margin: 0
+}
+
+@media screen and (min-width: 768px) {
+
+  .park-container {
+    margin: 30px;
+    width: 20%;
+  }
+
+  .name {
+    width: 140px;
+  }
+
+  ng-reflect-router-link {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+  .park-container {
+    align-items: center;
+  }
+
+  article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 105px;
+  }
+
+  .name {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    font-size: 16px;
+    padding-left: 15px;
+  }
 }

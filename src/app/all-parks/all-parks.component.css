@@ -6,3 +6,15 @@ div {
   background: rgb(234,237,215);
   background: radial-gradient(circle, rgba(234,237,215,1) 0%, rgba(241,241,241,1) 100%);
 }
+
+@media screen and (min-width: 768px) {
+
+parks {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+}

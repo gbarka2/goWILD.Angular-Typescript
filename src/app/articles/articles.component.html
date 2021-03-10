@@ -1,11 +1,15 @@
-<div class="article-container">
-  <h2><span>goWILD</span> News</h2>
-  <div *ngFor="let newsArticle of newsArticles" class="article">
-      <img src="https://www.nps.gov/common/commonspot/templates/images/logos/nps_social_image_02.jpg">
-      <h5>{{newsArticle.title}}</h5>
-      <p>{{newsArticle.listingDescription}}</p>
-      <a href="{{newsArticle.url}}">Click Here For Article</a>
+<div class="newsarticle-container">
+  <div class="title-container">
+    <h2><span>goWILD</span> News</h2>
+  </div>
+
+  <div class="article-container">
+    <div *ngFor="let newsArticle of newsArticles" class="article">
+        <img src="https://www.nps.gov/common/commonspot/templates/images/logos/nps_social_image_02.jpg">
+        <p>{{newsArticle.title}}</p>
+        <!-- <p>{{newsArticle.listingDescription}}</p> -->
+        <a href="{{newsArticle.url}}">Click Here For Article</a>
+    </div>
   </div>
 </div>
-
 

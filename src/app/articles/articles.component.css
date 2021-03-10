@@ -8,11 +8,26 @@ div {
   font-family: 'Poppins', sans-serif;
 }
 img {
-  height: 100px;
-  width: 200px;
+  height: 10%;
+  width: 40%;
   margin: 10px;
   border: 1px solid #3a7d44;
   border-radius: 20px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 35px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
 }
 
 
@@ -23,7 +38,6 @@ img {
   margin: 25px 0 0 0;
   padding-bottom: 25px;
   flex-direction: column;
-  border-bottom: #3a7d44 3px solid;
 }
 
 h5 {
@@ -40,10 +54,14 @@ span {
   border-radius: 20px;
   background-color: white;
   margin: 10px;
+  width: 75%;
+  text-align: center;
+  justify-content: space-between;
 }
 
 p {
   margin: 0 10px 10px 10px;
+  /* padding: 0 7px; */
 }
 
 a {
@@ -53,4 +71,56 @@ a {
   padding: 5px;
   border: 2px solid #181d27;
   border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .article {
+    width: 250px;
+    height: 265px;
+    text-align: center;
+  }
+
+  .article-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .container {
+    align-items: center;
+    margin: 0 0 0 38px;
+  }
+
+  img {
+    width: 85px;
+    height: 45px;
+  }
+
+  h4 {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .newsarticle-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .article-container {
+    margin-left: 186px;
+    width: 100%;
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+  .article-container {
+    margin-left: 15px;
+  }
 }
