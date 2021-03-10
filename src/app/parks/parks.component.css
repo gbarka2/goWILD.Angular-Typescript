@@ -1,12 +1,13 @@
 img {
   height: 75px;
-  max-width: 190px;
+  width: 90px;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 div {
   border: 1px solid red;
   width: 200px;
-  /* height: 300px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,15 +19,12 @@ div {
   font-family: 'Courgette', cursive;
 }
 
-img {
-  border-radius: 5px;
-}
-
 article {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 p:first-of-type {
@@ -35,4 +33,16 @@ p:first-of-type {
 
 p {
   margin: 0
+}
+
+@media screen and (min-width: 768px) {
+
+  .park-container {
+    margin: 30px;
+    width: 20%;
+  }
+
+  ng-reflect-router-link {
+    margin: 0;
+  }
 }
