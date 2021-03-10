@@ -15,18 +15,18 @@ img {
   border-radius: 20px;
 }
 
-p, h5 {
-  padding: 4px;
-}
 
 .article-container {
   height: 100%;
   width: 100%;
   display: flex;
-  margin: 0;
+  margin: 25px 0 0 0;
   flex-direction: column;
-  border-top: #3a7d44 3px solid;
   border-bottom: #3a7d44 3px solid;
+}
+
+h5 {
+  margin: 0 15px 15px 15px;
 }
 
 span {
@@ -37,8 +37,14 @@ span {
   border: 2px solid #3a7d44;
   border-radius: 20px;
   background-color: white;
+  margin: 10px;
 }
 
 p {
   margin: 0 10px 10px 10px;
+}
+
+a {
+  color: #3a7d44;
+  margin-bottom: 10px;
 }
