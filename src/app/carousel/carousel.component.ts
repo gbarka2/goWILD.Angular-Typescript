@@ -18,8 +18,8 @@ export class CarouselComponent implements OnInit {
   title: string[] = []
   credit: string[] = []
   caption: string[] = []
-  showNavigationArrows = true;
-  showNavigationIndicators = true;
+  showNavigationArrows = false;
+  showNavigationIndicators = false;
   pauseOnHover = true;
 
   constructor(private carouselImagesService: CarouselImagesService) { }
