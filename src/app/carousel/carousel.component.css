@@ -58,4 +58,19 @@ h4 {
   }
 
 
+  @media screen and (min-width: 1140px) {
+    ngb-carousel {
+      width: 75%;
+      height: 465px;
+    }
+
+    h4 {
+      width: 25%;
+    }
+
+    img {
+      height: 465px;
+    }
+
+  }
 }

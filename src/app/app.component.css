@@ -13,11 +13,13 @@ h1 {
   width: 100%;
 }
 
-app-about {
-  width: 100%;
-}
-
 fa-icon {
   font-size: 24px;
+}
+
+@media screen and (min-width: 1440px) {
+  h1 {
+    font-size: 76px;
+  }
 }
 

@@ -12,3 +12,10 @@ ul {
 li {
   color: #d0db97;
 }
+
+@media screen and (min-width: 1440px) {
+
+  ul {
+    font-size: 28px;
+  }
+}
