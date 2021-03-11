@@ -1,7 +1,4 @@
 import { Component } from '@angular/core';
-import {HttpClient} from '@angular/common/http'
-import {Park} from './park';
-import {Observable} from 'rxjs'
 import {faCompass} from '@fortawesome/free-solid-svg-icons'
 
 
@@ -11,6 +8,7 @@ import {faCompass} from '@fortawesome/free-solid-svg-icons'
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   title = 'goWILD';
   faCompass = faCompass

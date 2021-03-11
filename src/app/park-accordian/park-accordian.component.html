@@ -2,7 +2,6 @@
 #myaccordion="ngbAccordion" 
 type="'success'"
 >
-
 	<ngb-panel title="Address Information" id="panelOne">
 		<ng-template ngbPanelContent >
       <div *ngFor="let address of park.addresses">
@@ -13,7 +12,6 @@ type="'success'"
       </div>
 		</ng-template>
 	</ngb-panel>
-
 	<ngb-panel title="Entrance Fee Information" id="panelTwo">
 		<ng-template ngbPanelContent>
       <div *ngFor="let fee of park.fees">
@@ -23,24 +21,20 @@ type="'success'"
       </div>
 		</ng-template>
 	</ngb-panel>
-
   <ngb-panel title="Directions" id="panelThree">
 		<ng-template ngbPanelContent>
       <p>{{park.directions}}</p>
 		</ng-template>
 	</ngb-panel>
-
   <ngb-panel title="Weather Information" id="panelFour">
 		<ng-template ngbPanelContent>
       <p>{{park.weather}}</p>
 		</ng-template>
 	</ngb-panel>
-  
 	<ngb-panel title="Contact Information" id="panelFive">
 		<ng-template ngbPanelContent>
       <p><span>Phone: </span>{{park.phone}}</p>
       <p><span>Email: </span>{{park.email}}</p>
 		</ng-template>
 	</ngb-panel>
-
 </ngb-accordion>

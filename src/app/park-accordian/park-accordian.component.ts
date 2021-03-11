@@ -1,5 +1,4 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { NgbPanelChangeEvent, NgbAccordion } from '@ng-bootstrap/ng-bootstrap';
 import {ActivatedRoute} from '@angular/router'
 import {HttpClient} from '@angular/common/http'
 
@@ -26,7 +25,6 @@ export class ParkAccordianComponent implements OnInit {
   }
 
   displayPark(data: Object) {
-    // console.log(data)
     this.park = data
   }
 

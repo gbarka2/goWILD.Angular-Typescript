@@ -1,5 +1,3 @@
-
-
 .about-container {
   font-family: 'Poppins', sans-serif;
   background: rgb(234,237,215);
@@ -8,6 +6,7 @@
   width: 100%;
   margin: 0;
 }
+
 h3 {
   padding-top: 10px;
 }

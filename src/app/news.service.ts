@@ -15,4 +15,5 @@ export class NewsService {
     const url: string = `https://developer.nps.gov/api/v1/articles?&limit=6&${npsKey}`
     return this.http.get<INews[]>(url)
   }
+  
 }

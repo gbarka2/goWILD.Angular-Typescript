@@ -7,6 +7,7 @@ import {HttpClient} from '@angular/common/http'
   templateUrl: './park.component.html',
   styleUrls: ['./park.component.css']
 })
+
 export class ParkComponent implements OnInit {
 
   constructor(private route: ActivatedRoute, private http: HttpClient) { }
@@ -23,7 +24,6 @@ export class ParkComponent implements OnInit {
   }
 
   displayPark(data: Object) {
-    // console.log(data)
     this.park = data
   }
 

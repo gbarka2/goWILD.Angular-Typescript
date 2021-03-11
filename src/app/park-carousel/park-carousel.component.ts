@@ -36,7 +36,6 @@ export class ParkCarouselComponent implements OnInit {
   }
 
   displayImages(data: Object) {
-    console.log(data)
     this.parkImages = data
   }
   

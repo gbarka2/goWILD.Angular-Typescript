@@ -9,11 +9,11 @@ import {HttpClient} from '@angular/common/http'
 })
 export class ParksComponent implements OnInit {
 
+  
+  constructor(private http: HttpClient) { }
 
   parks: any
   images: any
-
-  constructor(private http: HttpClient) { }
 
   ngOnInit() {
     this.http.get("https://nps-api-app-1.herokuapp.com/parks")
@@ -22,11 +22,6 @@ export class ParksComponent implements OnInit {
 
   displayParks(data: Object) {
     this.parks = data
-    console.log(data)
-  }
-
-  displayImages(data: Object) {
-    console.log(data)
   }
 
 }

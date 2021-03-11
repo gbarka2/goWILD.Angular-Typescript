@@ -9,6 +9,7 @@ import {faDesktop} from '@fortawesome/free-solid-svg-icons'
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
+
 export class ContactComponent implements OnInit {
 
   faFile = faFile

@@ -5,7 +5,6 @@ ngb-carousel {
 }
 
 img { 
-  /* width: 425px; */
   height: 200px;
   align-items: center;
 }
@@ -13,5 +12,4 @@ img {
 .picsum-img-wrapper {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }

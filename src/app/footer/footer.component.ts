@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {ContactComponent} from '../contact/contact.component'
 import {faCompass} from '@fortawesome/free-solid-svg-icons'
 
 @Component({
